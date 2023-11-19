@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(natureza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+.box{
+    background-color: rgb(102, 96, 96);
+    opacity: 0.9;
+    border-radius: 25px;
+    padding: 25px;
+    width: 95%;
+    max-width: 450px;
+}
+.input-cidade{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 25px;
+    background-color: rgb(255, 246, 246);
+    color: rgb(0, 0, 0);
+    width: calc(100%, -100px);
+}
+.botao-buscar{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    left: 20px;
+    float: right;
+}
+.img{
+    width: 20px;
+}
+
+.caixa-media{
+    margin-top: 30px;
+}
+
+.box h2{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.temp{
+    font-size: 21px;
+    color: #fff;
+    margin-top: 10px;
+}
+.nuvem{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    margin-top: 20px;
+}
+.texto-previsao{
+    color: #fff;
+    margin-left: 20px;
+    text-transform: uppercase;
+    position: static;
+}
+.umidade{
+    color: #fff;
+    margin-top: 10px;
+}
